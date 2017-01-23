@@ -1,0 +1,87 @@
+/*
+* background body color
+*/
+
+body {
+  background-image: url('http://i.imgur.com/c9W8IhM.jpg');
+  background-repeat: no-repeat;
+      background-size: 1950px 1000px;
+
+
+}
+
+.calculator {
+  width: 290px;
+  margin: 0 auto;
+  margin-top: 290px;
+  padding-top: 15px;
+  height: 425px;
+  background-color: #dbdde0;
+  border-radius: 30px/25px;
+  -webkit-box-shadow: 0px 5px 14px;
+  box-shadow: 15px 19px 20px;
+  text-align: center;
+  
+}
+
+span {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: comic sans;
+   display:table;
+   margin:0 auto;
+   padding-bottom: 5px;
+}
+
+.display {
+  height: 50px;
+  width: 260px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  background-color: ##dee2e8;
+  box-shadow: inset 5px -2px 8px #050505;
+  font-size: 35px;
+  text-align: right;
+  color: #101011;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+button {
+  width: 65px;
+  height: 55px;
+  border-radius: 20px/80px;
+  margin-top: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#allClear {
+  width: 130px;
+  font-size: 20px;
+  color: white;
+}
+
+#zero {
+  width: 200px;
+}
+
+.num-button {
+  background-color: #222F33;
+  font-size: 25px;
+  color: white;
+}
+.num-button:hover {
+  background-color: #3B484D;
+  color: white;
+}
+.operators{
+  background-color: #222F33;
+ font-size: 25px;
+ color: white;
+}
+
+.operators:hover{
+ background-color: #3B484D;
+  color: white;
+}
